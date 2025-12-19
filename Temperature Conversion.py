@@ -10,7 +10,7 @@ def celsius_to_fahrenheit(C_temp):
 
 
 for line in list_of_lines: 
-    line = line.strip() 
+    line=line.strip() 
     if line.endswith('C'): 
         C_temp = float(line[:-1]) 
         F_temp = celsius_to_fahrenheit(C_temp) 
